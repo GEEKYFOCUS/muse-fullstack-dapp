@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Muse Smart Contracts - AI Art Marketplace on Stellar",
   "scripts": {
-    "build": "stellar contract build",
+    "build": "node init && stellar contract build",
     "test": "stellar contract test",
     "deploy:standalone": "stellar contract deploy --network standalone",
     "deploy:testnet": "stellar contract deploy --network testnet",
